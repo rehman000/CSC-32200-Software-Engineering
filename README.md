@@ -22,9 +22,13 @@ The Convention is to name the directory as such:
     $ virtualenv env
 
 Now that the Python Virtual Enviornment has been created you can activate it by entering the following command:
+For Unix/Linux Systems:
 
     $ source env/bin/activate
-    
+
+For Windows Systems:
+    $ \env\Scripts\activate.bat
+
 Now that we have entered the Python Virtual Enviornment to run the application enter the following command:
 
     $ python3 app.py
