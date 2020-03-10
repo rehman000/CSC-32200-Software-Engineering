@@ -44,6 +44,6 @@ Note that this is temporary if I end up installing more Python modules, I will p
 
     $ pip install -r dependencies.txt
 
-Now that we have set up properly to run the application enter the following command:
+Now that we have set up everything properly to run the application enter the following command:
 
     $ python3 app.py
