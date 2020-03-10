@@ -27,6 +27,7 @@ For Unix/Linux Systems:
     $ source env/bin/activate
 
 For Windows Systems:
+
     $ \env\Scripts\activate.bat
 
 Now that we have entered the Python Virtual Enviornment to run the application enter the following command:
