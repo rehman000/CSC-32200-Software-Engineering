@@ -35,6 +35,10 @@ You will know that the Python Virtual Enviornment is working correctly when you 
 
 ![Python_Virtual_Enviornment](/docs/Python_Virtual_Enviornment.jpg)
 
-Now that we have entered the Python Virtual Enviornment to run the application enter the following command:
+Now that we are in the Python Virtual Enviornment we can install all the necessary dependencies by entering the following command:
+
+    $ pip3 install flask flask-sqlalchemy
+
+Now that we have set up properly to run the application enter the following command:
 
     $ python3 app.py
