@@ -22,6 +22,7 @@ The Convention is to name the directory as such:
     $ virtualenv env
 
 Now that the Python Virtual Enviornment has been created you can activate it by entering the following command:
+
 For Unix/Linux Systems:
 
     $ source env/bin/activate
