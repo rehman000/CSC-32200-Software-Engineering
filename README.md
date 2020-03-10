@@ -23,11 +23,11 @@ The Convention is to name the directory as such:
 
 Now that the Python Virtual Enviornment has been created you can activate it by entering the following command:
 
-For Unix/Linux Systems:
+(For Unix/Linux Systems):
 
     $ source env/bin/activate
 
-For Windows Systems:
+(For Windows Systems):
 
     $ \env\Scripts\activate.bat
 
@@ -38,6 +38,11 @@ You will know that the Python Virtual Enviornment is working correctly when you 
 Now that we are in the Python Virtual Enviornment we can install all the necessary dependencies by entering the following command:
 
     $ pip3 install flask flask-sqlalchemy
+
+Note that this is temporary if I end up installing more Python modules, I will place them all in a dependencies.txt file and you could install all the dependencies inisde the virtual enviornment by entering the following command: 
+(This has not yet happened, but it's good to be future proof)
+
+    $ pip install -r dependencies.txt
 
 Now that we have set up properly to run the application enter the following command:
 
