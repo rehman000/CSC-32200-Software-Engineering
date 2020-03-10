@@ -31,6 +31,10 @@ For Windows Systems:
 
     $ \env\Scripts\activate.bat
 
+You will know that the Python Virtual Enviornment is working correctly when you see (env) next to your bash $ directory name, as seen in the image below:
+
+![Python_Virtual_Enviornment](/docs/Python_Virtual_Enviornment.jpg)
+
 Now that we have entered the Python Virtual Enviornment to run the application enter the following command:
 
     $ python3 app.py
