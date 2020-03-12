@@ -29,13 +29,13 @@ body {
 }
 
 .sidebar-link:hover {
-	background-color: #ff4d4d;
+	background-color: #8b67bf;
 	opacity: 0.7;
 	border-radius: 5px;
 }
 
 .current {
-	background-color: #ff0000;
+	background-color: #723dbe;
 	border-radius: 7px;
 	box-shadow: 2px 5px 10px #111;
 	transition: all .3s;			/* This is the transition effect */
@@ -95,6 +95,9 @@ body {
 	transform: translate(-1px);
 }
 
+.topbar-bg {
+	background: #723dbe;
+}
 /* ---- end of top-bar ---- */
 
 
@@ -125,6 +128,10 @@ body {
 .card-common:hover {
 	box-shadow: 2px 3px 15px #999;
 	transform: translateY(-1px);
+}
+
+.card-footer-bg {
+	background: #723dbe;
 }
 
 /* -------- end of cards -------- */
