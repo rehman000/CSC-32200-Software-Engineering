@@ -42,7 +42,7 @@ Now that we are in the Python Virtual Enviornment we can install all the necessa
 Note that this is temporary if I end up installing more Python modules, I will place them all in a dependencies.txt file and you could install all the dependencies inisde the virtual enviornment by entering the following command: 
 (This has not yet happened, but it's good to be future proof)
 
-    $ pip install -r dependencies.txt
+    $ pip install -r requirements.txt
 
 Now that we have everything set up properly to run the application enter the following command:
 
