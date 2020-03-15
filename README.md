@@ -47,3 +47,7 @@ Note that this is temporary if I end up installing more Python modules, I will p
 Now that we have everything set up properly to run the application enter the following command:
 
     $ python3 app.py
+
+The test application has been deployed to Heroku:
+    
+    https://flask-tutorial-crud-app.herokuapp.com/
