@@ -35,6 +35,8 @@ You will know that the Python Virtual Enviornment is working correctly when you 
 
 ![Python_Virtual_Enviornment](/docs/Python_Virtual_Enviornment.jpg)
 
+# Installing Dependencies: 
+
 Now that we are in the Python Virtual Enviornment we can install all the necessary dependencies by entering the following command:
 
     $ pip3 install flask flask-sqlalchemy
@@ -43,10 +45,14 @@ Note that this is temporary if I end up installing more Python modules, I will p
 (This has not yet happened, but it's good to be future proof)
 
     $ pip3 install -r requirements.txt
+    
+# Running the Application:
 
 Now that we have everything set up properly to run the application enter the following command:
 
     $ python3 app.py
+
+# Deployment: 
 
 The test application has been deployed to Heroku:
     
