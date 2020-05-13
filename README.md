@@ -21,6 +21,10 @@ The Convention is to name the directory as such:
 
     $ virtualenv env
 
+In Debian/Ubuntu based systems: 
+
+    $ python3 -m venv env
+    
 Now that the Python Virtual Enviornment has been created you can activate it by entering the following command:
 
 (For Unix/Linux Systems):
